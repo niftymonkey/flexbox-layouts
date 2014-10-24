@@ -1,0 +1,69 @@
+/***************************************************
+ * Base layout & visual styles
+ **************************************************/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *.after {
+  box-sizing: inherit;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  width: 400px;
+  height: 350px;
+  margin: 40px auto;
+}
+.label-input-wrapper {
+  background-color: aliceblue;
+  padding: 5px;
+  border: 1px solid #DFDFDF;
+}
+
+.label-input-wrapper > * {
+}
+
+/***************************************************
+ * Flex Layout Styles
+ **************************************************/
+
+.main-container {
+  display: flex;
+  /* this tell it to go top to bottom first when flowing */
+  flex-direction: column;
+  /* wrap the flex items when the next item will no longer fit in the column */
+  flex-wrap: wrap;
+  /**
+   * this does for align-items what space-around does for justify-content
+   * without this, the child items will stretch to fill their flex space
+   */
+  align-items: center;
+}
+
+.label-input-wrapper {
+  /* every one of these should take up equal space */
+  flex: 1;
+
+  /* this will ensure that we get 5 rows worth of items before it wraps */
+  min-height: 20%;
+  /**
+   * this ensures that this wrapper doesn't get any bigger than half the width of its parent
+   * without this, these will spill outside of their parent if border/margin/padding is applied
+   */
+  max-width: 50%;
+
+  /* this is also a flex container for the label/input pairs */
+  display: flex;
+  /* this tell it to go top to bottom first when flowing */
+  flex-direction: column;
+}
+
+.label-input-wrapper > * {
+  /* labels and inputs should take up equal space */
+  flex: 1;
+}
