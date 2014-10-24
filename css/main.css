@@ -1,0 +1,38 @@
+/***************************************************
+ * Base layout & visual styles
+ **************************************************/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *.after {
+  box-sizing: inherit;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: lightseagreen;
+}
+
+.title {
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+
+  margin: 0 auto;
+  min-height: 1em;
+  min-width: 400px;
+}
+
+/***************************************************
+ * Flex Layout Styles
+ **************************************************/
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+}
