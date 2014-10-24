@@ -22,13 +22,13 @@ And honestly, once I've worked out some of the more common ones that I have in m
 
 * [Solved By Flexbox][1]
 * [A Complete Guide to Flexbox][4]
-* [Stetching With CSS - Flexbox Part 1][9]
-* [Stetching With CSS - Flexbox Part 2][10]
-* [Stetching With CSS - Flexbox Part 3][11]
+* [Sketching With CSS - Flexbox Part 1][9]
+* [Sketching With CSS - Flexbox Part 2][10]
+* [Sketching With CSS - Flexbox Part 3][11]
+* [CSS-Tricks Screencast #131: Tinkering With Flexbox][5]
 * [Learn CSS3 Flexbox - Part 1][6]
 * [Learn CSS3 Flexbox - Part 2][7]
 * [Learn CSS3 Flexbox - Part 3][8]
-* [CSS-Tricks Screencast #131: Tinkering With Flexbox][5]
 
 
 [1]:http://philipwalton.github.io/solved-by-flexbox/
